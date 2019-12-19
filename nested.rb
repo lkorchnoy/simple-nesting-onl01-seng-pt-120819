@@ -15,8 +15,8 @@ def hopper
           :languages => ["C"]
         }
      }
-programmer_hash[:adding_matz][:known_for][:languages] = "COBOL", "FORTRAN"
-{:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]}
+programmer_hash[:adding_matz][:known_for][:languages] = (("COBOL")("COBOL", "FORTRAN"))
+puts 
 end
 
 def alan_kay_is_known_for
