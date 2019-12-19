@@ -15,7 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-adding_matz
+programmer_hash[:adding_matz][:]
 {:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]}
 end
 
