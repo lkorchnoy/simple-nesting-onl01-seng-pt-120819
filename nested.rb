@@ -15,10 +15,12 @@ def hopper
           :languages => ["C"]
         }
      }
-programmer_hash[:adding_matz][:known_for][:languages] = (("COBOL")("COBOL", "FORTRAN"))
+programmer_hash[:][:known_for][:languages] = (("COBOL")("COBOL", "FORTRAN"))
 puts programmer_hash
 end
-
+yukihiro_matsumoto => {
+#   :known_for => "Ruby",
+#    :languages => ["LISP", "C"]
 
 
 
